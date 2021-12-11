@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "sahel";
+    src: url(../font/Sahel.woff) format("woff");
+}
+
+body{
+    font-family: "sahel";
+    direction: rtl; 
+}
+
+#navbarcustom{
+    
+    background-color: rgb(236, 236, 236) !important;
+} 
+.phone-nav{
+    font-size: 14px;
+    
+
+}
+
+.text-navbar ul li a{
+    font-size: 13px;
+    color: black !important;
+
+}
+
+.karbaricustom{
+    font-size: 15px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(75, 73, 73);
+    height: 40px;
+    border-top-left-radius: 0px;
+    border-end-end-radius: 0px ;
+}
+.vorodcustom{
+    font-size: 15px;
+    background-color: orange;
+    color: rgb(75, 73, 73);
+    height: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.thumbnail {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+   
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    margin-top: 15px;
+    height: 400px;
+    width: 100%;
+    background: rgb(38, 38, 48);
+    overflow: hidden;
+    border: 3px solid orange;
+}
+
+.headerimg {
+    position: absolute;
+    opacity: 0.2;
+}
+.caption{
+    position: absolute;
+    top: 18%;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    
+}
+#menu2custom{
+    
+    background-color:  rgb(38, 38, 48)!important;
+} 
+.dropdown-content a:hover {
+    color: orange !important;
+}
+
+.dropdowncustom{
+    background-color:  rgb(38, 38, 48) !important ;
+    
+}
+.dropdowncustom a:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: orange;
+}
+.card-text{
+    color: black;
+}
+.card-text:hover{
+    color: green;
+    text-decoration: none
+}
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 1
+}
+
+.content-image {
+    width: 100%
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.content-details {
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 15%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.content-details h6 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-top: -14px;
+}
+
+.content-details p {
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+
+.footercustoma{
+    background-color:  rgb(38, 38, 48);
+    color: white;
+    max-height: max-content;
+
+
+}
+
+.footercustomb{
+    background-color: rgb(32, 32, 39) ;
+    color: white;
+}
+.footericoncustom1{
+    margin-right:10px;
+    font-size: 18px;
+
+    
+}
+.footericoncustom2{
+    margin-right: 70px;
+    margin-top: -10px;
+    font-size: 13px;
+}
+.addressfooter{
+    opacity: .4;
+    height: 16px;
+    margin-top: 4px;
+
+}
+.hoverfootera a{
+    color: white;
+    font-size: 12px;
+    display: block;
+    margin-top: 20px;
+}
+.hoverfootera a:hover{
+color: orange;
+text-decoration: none
+}
+.brdcrumbcustom {
+    background-color: rgb(32, 32, 39);
+    font-size: 14px;
+    color: grey;
+
+}
+.brdcrumbcustom li a{
+    color: grey;
+
+}
+.brdcrumbcustom li a:hover{
+    color: orange;
+    text-decoration: none;
+   
+}
